@@ -1,0 +1,19 @@
+##=====First create a directory and call it playbooks##=====
+mkdir /etc/ansible/playbooks
+
+##=====cd into the playbooks directory##=====
+cd /etc/ansible/playbooks
+
+##=====create our first yaml file##=====
+vim first.yaml
+---
+- name: my first playbook
+  hosts: local
+
+  tasks:
+        - name: test connectivity
+
+:wq
+
+ansible-playbook --check first.yaml
+
