@@ -1,0 +1,9 @@
+All tasks are executed in sequential order
+Tasks are processed one at a time
+Indentation is extremely important
+No tabs in yaml file
+Use spaces only
+Empty lines have no value
+File extension is usually .yml or .yaml
+No difference between double quotation or no quotation for a task
+when a flat file is written in yml format to execute tasks/plays then it is called playbook
